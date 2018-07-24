@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    user-select: none;
+}
+
+body{
+    background-color: #1f1f1f;
+    color: #0f0;
+
+}
+#container{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#heading{
+    text-decoration: underline;
+}
+
+#form-div{
+    margin-top: 5% 
+}
+
+.form-element{
+    margin: 1%;
+    padding: 0.5%;
+    font-size: 1.1em;
+    width: 50%;
+    text-align: center;
+    background-color: #202020;
+    color: white;
+    border-bottom: #0f0 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#btn{
+    border: #0f0 2px solid;
+    background-color: #000;
+    padding: 10px 20px 10px 20px;
+    width: 150px;
+    color: #0f0;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#result{
+    padding: 3px;
+    width: 40px;
+}
+
+a:link, a:visited{
+    color: #0f0;
+}
+
+hr{
+    background-color: #0f0; 
+    border: 1px solid #0f0; 
+    width: 40%; 
+    margin-left: 30%; 
+    margin-right: 30%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+
+footer{
+    bottom: 0px;
+    position: fixed;
+    padding: 1%;
+    width: 100%;
+}

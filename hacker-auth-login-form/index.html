@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hacker Authentication Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initialise()" >
+    <div id="container" >
+        
+    <h1 id="heading"></h1>
+        
+        <div id="form-div">
+            <form method="get">
+                <div>
+<!--                <label for="user">Identity:</label> <br>-->
+                    <input type="text" name="user" placeholder="OPERATIVE ID" autocomplete="off" value=""  class="form-element" id="identity" > <br>
+                </div>
+                <div>           
+<!--                <label for="pass">Passphrase:</label> <br>-->
+                    <input type="password" name="pass" placeholder="SECRET ACCESS CODE" autocomplete="off" value="" class="form-element" id="pass" > <br>
+                </div>
+                
+                <div>
+                    <span id="num1"></span>
+                    <span id="op">+</span>
+                    <span id="num2"></span> = 
+                    <input type="number" id="result" autocomplete="off" min="0" onchange="verify()" max="1000" >
+                </div>
+                <div>
+                    <input type="submit" class="form-element" id="btn" value="Validate" onclick="changeTxt('Checking...')" >
+                </div>
+            </form>
+        </div>
+        <hr>
+        <div id="showcase"><h2 title="Developer">More from Arav</h2>&nbsp;<br>
+        <a href="http://iamarav.github.io/random-password-generator" target="_blank" title="Try this" >Password Generator</a>
+        </div>
+        
+        <footer id="footer">Gaurav Sachdeva | 
+        <a href="http://arav.ga?ref=login-form-hackstyle" target="_blank" id="footerlink" >Blog</a> |
+        <a href="http://github.com/iamarav" target="_blank" id="footerlink" >Github</a> | 2018 </footer>
+        
+        
+        
+            
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
