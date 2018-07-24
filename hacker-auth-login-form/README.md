@@ -8,6 +8,6 @@ Have a look by clicking on any of the links below
 [Github](http://iamarav.github.io/HTML/hacker-auth-login-form)
 
 Screenshots are given below  
-![Login Form](./files/img/hacker-auth-login-form-ss.PNG)
+![Login Form](https://iamarav.github.io/HTML/files/img/hacker-auth-login-form-ss.PNG)
 
 _Enjoy!!!_
